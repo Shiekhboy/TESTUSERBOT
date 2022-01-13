@@ -3,20 +3,20 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $LEGEND_REPO == "LEGENDBOT" ]]
+    if [[ $TEST_REPO == "TESTUSERBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
-    elif [[ $LEGEND_REPO == "LEGENDBOT" ]]
+    elif [[ $TEST_REPO == "TESTUSERBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
-    elif [[ $LEGEND_REPO =~ $regex ]]
+    elif [[ $TEST_REPO =~ $regex ]]
     then
-        if [[ $LEGEND_REPO_BRANCH ]]
+        if [[ $TEST_REPO_BRANCH ]]
         then
-            echo "${LEGEND_REPO}/archive/${LEGEND_REPO_BRANCH}.zip"
+            echo "${TEST_REPO}/archive/${TEST_REPO_BRANCH}.zip"
         else
-            echo "${LEGEND_REPO}/archive/master.zip"
-        fi
+            echo "${TEST_REPO}/archive/master.zip"
+      fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
     fi
@@ -25,20 +25,20 @@ _get_repolink () {
 
 _setting_bot () {
     local zippath
-    zippath="LegendBot.zip"
-    echo "  Downloading LegendBot V3.O Source Code..."
+    zippath="TESTUSERBot.zip"
+    echo "  💥Installation starting Testuserbot Source Code...🥳"
     wget -q $(_get_repolink) -O "$zippath"
-    echo "  Unpacking Data ..."
-    LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    echo "  Unpacking Data Ho raha h chacha😂 ..."
+    TESTPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
-    echo "  LegendBot V3.O Cleaning.."
+    echo "  Testuserbot Cleaning.."
     rm -rf "$zippath"
     sleep 5
-    cd $LEGENDPATH
-    echo "    ⚜️Starting Lêɠêɳ̃dẞø†⚜️     "
+    cd $TESTPATH
+    echo "    💥 Starting Testuserbot  💥   "
     echo "
-    🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳
+    💥💥💥💥💥💥💥💥💥
     "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
