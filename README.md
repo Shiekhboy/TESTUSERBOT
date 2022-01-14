@@ -39,7 +39,7 @@
 
 ------
 ## YouTube 📺
-- [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCvp8PY25PTRhFDZjLv3sVfg?style=social)](https://youtube.com/channel/UCvp8PY25PTRhFDZjLv3sVfg)
+- [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCvp8PY25PTRhFDZjLv3sVfg?style=social)](https://youtube.com/c/UltraLegendArmyOfficial)
 - [![YouTube Video Views](https://img.shields.io/youtube/views/9dQgdUJfk_k?label=Tutorial+•+Heroku+•&style=social)](https://youtu.be/9dQgdUJfk_k)
 
 ------------
@@ -63,10 +63,10 @@
 
 - Clone the repo. 
 
-`git clone https://github.com/The-LegendBot/LEGENDUSERBOT.git`
+`git clone https://github.com/KRISHNA-ZENITSUOP/TESTUSERBOT.git`
 - Open Cloned Folder.
 
-`cd LEGENDUSERBOT`
+`cd TESTUSERBOT`
 - Create VirtualEnv.
 
 `virtualenv -p /usr/bin/python3 venv`
@@ -75,13 +75,13 @@
 - Install Requirements.
 
 `pip install -U -r requirements.txt`
-- Generate Legend STRING.
+- Generate TEST STRING.
 
-`python LegendString.py`
+`python TestString.py`
 - Create config.py or rename exampleconfig.py to config.py. Fill All The Required Variables.
-- Finally Start LegendBot By Vps
+- Finally Start TestuserBot By Vps
 
-`bash ./LEGENDBOT/start.sh`
+`bash ./TESTUSERBOT/start.sh`
 
 ---------
 
@@ -89,7 +89,7 @@
 
 - `APP_ID`  =  Get this value from my.telegram.org
 - `API_HASH`  =  Get this value from my.telegram.org
-- `LEGEND_STRING`  =  Get this by using [Repl.it](#Repl) or from [terminal](#Terminal)
+- `TEST_STRING`  =  Get this by using [Repl.it](#Repl) or from [terminal](#Terminal)
 - `LOGGER_ID`  =  Make A Channel And Get it's ID.
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
 - `BOT_USERNAME`  =  Get the username of that Bot made from [@Botfather](https://t.me/botfather)
@@ -122,7 +122,7 @@
 - Open the terminal.
 - Paste this code.
 
-`pkg install python wget -y && pip install telethon && wget https://raw.githubusercontent.com/The-LegendBot/LEGENDUSERBOT/LegendBot/LegendString.py && python3 LegendString.py`
+`pkg install python wget -y && pip install telethon && wget https://raw.githubusercontent.com/KRISHNA-ZENITSUOP/TESTUSERBOT/TestuserBot/LegendString.py && python3 LegendString.py`
 - Fill API ID, API HASH, Phone number (with country code).
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
@@ -133,7 +133,7 @@
 ------
 ## Disclaimer
 - We won't be responsible for any kind of ban due to this bot.
-- TutorialBot was made for fun purpose and to make group management easier.
+- TestuserBot was made for fun purpose and to make group management easier.
 - It's your concern if you spam and gets your account banned.
 - Also, Forks won't be entertained.
 - If you fork this repo and edit plugins, it's your concern for further updates.
@@ -148,7 +148,7 @@
 
 LEGEND-OS
 
-Poject [LEGENDBOT](https://github.com/LEGEND-OS/LEGENDBOT) is free software: you can redistribute it and/or modify
+Poject [TESTUSERBOT](https://github.com/KRISHNA-ZENITSUOP/TESTUSERBOT) is free software: you can redistribute it and/or modify
 
 it under the terms of the GNU General Public License as published by
 
