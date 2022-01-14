@@ -11,8 +11,8 @@
     "productivity"
   ],
   "repository": "https://github.com/KRISHNA-ZENITSUOP/TESTUSERBOT/",
-  "website": "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FKRISHNA-ZENITSUOP%2FTESTUSERBOT&template=https%3A%2F%2Fgithub.com%2FKRISHNA-ZENITSUOP%2FTESTUSERBOT",
-  "success_url": "https://t.me/Krishna_Userbot",
+  "website": "https://github.com/KRISHNA-ZENITSUOP/TESTUSERBOT",
+  "success_url": "https://t.me/Legend_Userbot",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
