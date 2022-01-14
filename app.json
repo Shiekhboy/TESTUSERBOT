@@ -12,7 +12,7 @@
   ],
   "repository": "https://github.com/KRISHNA-ZENITSUOP/TESTUSERBOT/",
   "website": "https://github.com/KRISHNA-ZENITSUOP/TESTUSERBOT/",
-  "success_url": "https://t.me/Legend_Userbot",
+  "success_url": "https://t.me/Krishna_Userbot",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
