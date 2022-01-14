@@ -26,7 +26,7 @@
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
-      "value": "Iam user of Krishna ",
+      "value": "Iam user of Krishna",
       "required": false
     },
     "ABUSE": {
