@@ -99,6 +99,7 @@ setuptools
 spamwatch
 selenium
 speedtest-cli>=2.0.2
+userbot
 spotify_token
 spotdl
 sqlalchemy
