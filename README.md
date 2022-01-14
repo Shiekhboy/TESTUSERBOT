@@ -57,7 +57,7 @@
 - Click Below Deploy To Heroku
 
 
-- [![Deploy](https://te.legra.ph/file/e0d2a58ee8d25a9f29a60.jpg)](https://heroku.com/deploy/)
+- [![Deploy](https://te.legra.ph/file/5a87813114641dd7e8ce6.png)](https://heroku.com/deploy/)
 
 ## Deploy Locally
 
@@ -110,7 +110,7 @@
     - Now Run StringSession Given Below:
    
 
-[![String](https://te.legra.ph/file/e0d2a58ee8d25a9f29a60.jpg)](https://replit.com/@ArpitSoni1/Krishna-1#main.py) 
+[![String](https://te.legra.ph/file/af95eab7b38390b62fa43.png)](https://replit.com/@ArpitSoni1/Krishna-1#main.py) 
 
     - Click On Generate String
     - Then Click On Green Run Button.
