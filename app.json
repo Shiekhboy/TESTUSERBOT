@@ -18,8 +18,7 @@
       "description": "Set this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
-,
-    "ALIVE_NAME": {
+   "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is Test User",
       "value": "TestBoy",
       "required": true
